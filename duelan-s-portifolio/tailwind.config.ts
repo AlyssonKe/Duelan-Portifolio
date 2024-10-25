@@ -11,8 +11,12 @@ const config: Config = {
       'primary': '#F9F9F9',
       'secundary': '#1C2529',
       'primary-blue': '#1BB1E0',
-
+      
       'blue-link': '#1C84B5',
+      
+      'red': '#C12B54',
+      'green': '#2BC151',
+      'pink': '#EA62E8',
 
       'gray': '#39454A',
 

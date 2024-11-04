@@ -10,7 +10,9 @@ const config: Config = {
     colors: {
       'primary': '#F9F9F9',
       'secundary': '#1C2529',
+      'primary-gray': '#E8E9EA',
       'primary-blue': '#1BB1E0',
+      'secundary-gray': '#D7DADD',
       
       'blue-link': '#1C84B5',
       
@@ -23,9 +25,7 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'duelan-main': "url('/images/duelan-main.png')",
       },
     },
   },

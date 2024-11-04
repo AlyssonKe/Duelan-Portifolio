@@ -13,7 +13,7 @@ export default function Navbar() {
     };
 
     return (
-        <header className="h-20 w-full top-0 z-50 bg-opacity-50 bg-red">
+        <header className="h-20 w-full top-0 z-50">
             <nav className="h-full flex justify-between items-center px-0 pt-0 md:px-6">
                 <Link
                     href="/"

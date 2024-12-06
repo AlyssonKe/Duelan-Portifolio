@@ -24,7 +24,7 @@ export default function Navbar() {
 
                 {/* <div className='clear-both'></div> */}
 
-                <div className={`h-screen w-full backdrop-blur-2xl fixed top-0 before:absolute before:h-full before:w-full before:bg-secundary md:absolute before:opacity-50 md:before:opacity-0 md:backdrop-blur-none ${menuVisible ? 'block' : 'hidden'} duration-300 transition-all md:block md:right-0 md:duration-0 flex items-center justify-center`}>
+                <div className={`h-screen w-full backdrop-blur-lg fixed top-0 before:absolute before:h-full before:w-full before:bg-secundary md:absolute before:opacity-50 md:before:opacity-0 md:backdrop-blur-none ${menuVisible ? 'block' : 'hidden'} duration-300 transition-all md:block md:right-0 md:duration-0 flex items-center justify-center`}>
                     <ul className='flex flex-col md:flex-row justify-end items-center space-x-0 gap-6 sm:mx-8 md:text-base lg:mx-16 mt-5'>
                         
                         <li className='group relative flex flex-col items-center'>
